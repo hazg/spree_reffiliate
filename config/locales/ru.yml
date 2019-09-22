@@ -1,0 +1,62 @@
+ru:
+  spree:
+    my_transaction: Мои переводы
+    affiliate_partial_path: 'app/views/spree/affiliates/'
+    editing_affiliate: "Редактирование Партнерки:"
+    listing_affiliates: 'Список партнерок'
+    new_affiliate: 'Новая партнерка'
+    promotion_rule_types:
+      referred_promotion_rule:
+        name: "Приглашенный пользователь"
+        description: "Должен быть приглашенный пользователь"
+      affiliated_promotion_rule:
+        name: "Партнерка"
+        description: "Партнерка длжна быть"
+    referred_by: "Приглашен:"
+    referral_code: Код приглашения
+    referral_stats: Статус приглашений
+    referred_orders: Приглашенные заказы
+    users_referred: Приглашенные пользователи
+    referral_code_applied: Пожалуйста, зарегистрируйтесь для активации скидки приглашения.
+    affiliate_code_applied: Пожалуйста, зарегистрируйтесь для активации скидки партнера.
+    affiliate: Партнерка
+    referral:
+      name: Приглашенные
+      details: Детали
+    referral_settings:
+      name: Настройки приглашения
+      update:
+        successful: Настройки приглашения успешно обновленны.
+        unsuccessful: Не могу обновить. Кешбек не может быть отрицательным.
+      credits_to_be_awarded: Кредиты магазина для награждения
+      referral_credit_status: Дайте реферальные льготы.
+    referral_mail:
+      subject: Кредит магазина выплачивается успешными приглашенными
+    commission:
+      mark_paid_successfully: Коммисия оплачена
+      mark_paid_failure: Коммисия не может быть помечена оплаченной
+      cannot_mark_unpaid: Коммисия не может быть изменена с оплачено на не оплачено
+      unsuitable_date_range: Дата окончания должна быть больше даты начала
+      dates_ineligible: Коммисия может быть создана только для этого месяца
+      paid:
+        not_eligible: Коммисия не может быть выплачена до конца месяца
+    activation_token_expired: Токен активации просрочен или не найден
+    commission_transaction:
+      cannot_change_commisson: Коммисия для перевода не может быть изменена
+      locked_transaction: Перевод был заблокирован для изменений
+    listing_commission_rules: Список правил коммисии
+    edit_commission_rule: Редактировать правило коммисии
+    new_commission_rule: Новое правило коммисии
+    listing_commissions: Список коммисий
+    affiliate_mailer:
+      activation_instruction_subject: Добро пожаловать, инструкции для активации
+    affiliate_confirmation:
+      editing_affiliate: Редактирование партнерки
+      not_found: Партнерка не найдена
+    view_details: Детали
+    referred_user_details: Детали приглашенного пользователя
+    zero_reffered_count: Пока нет никого приглашенного вами.
+    user:
+      referral_setting:
+        credits_to_be_awarded: Кредиты магазина для рефералов
+        referral_credit_status: Реферальное пособие включено
